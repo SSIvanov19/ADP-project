@@ -15,8 +15,7 @@ class FandomSpider(scrapy.Spider):
                 "imgLink": response.xpath("""//*[@id="mw-content-text"]/div/table[1]/tbody/tr[2]/td/a/img/@src""").get()
         }
 
-
-        print(item)
+        yield item
 
 
     def parse(self, response):

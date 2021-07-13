@@ -1,6 +1,8 @@
 "rdsf" 
 # Byte-compiled / optimized / DLL files
 __pycache__/
+adpProject\adpProject\__pycache__
+adpProject\adpProject\__pycache__
 *.py[cod]
 *$py.class
 
@@ -82,7 +84,7 @@ target/
 # IPython
 profile_default/
 ipython_config.py
-adpProject\adpProject\__pycache__
+
 
 # pyenv
 #   For a library or package, you might want to ignore these files since the code is
@@ -140,3 +142,6 @@ dmypy.json
 cython_debug/
 ardesdata.db
 .vscode/*
+
+#database
+fandomdata.db
