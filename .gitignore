@@ -142,6 +142,7 @@ dmypy.json
 cython_debug/
 ardesdata.db
 .vscode/*
+.idea
 
 #database
 fandomdata.db
